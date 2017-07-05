@@ -12,6 +12,6 @@ class Owner
 			countdown = (birthday - today).to_i
 		else
 			countdown = (birthday.next_year - today).to_i
-		nd
+		end
 	end
 end
